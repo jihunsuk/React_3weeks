@@ -4,8 +4,8 @@ import { StyleSheet, Text, View, ScrollView } from 'react-native';
 class CoinView extends React.Component {
     render () {
         return (
-            <View style={styles.container}>
-                <Text>New View</Text>
+            <View style={this.props.style}>
+                <Text style={{color: 'red'}}>코인뷰가 나올것입니다.</Text>
             </View>
         )
     }
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     container : {
         flex: 1,
         flexDirection: 'column',
-        backgroundColor : 'skyblue',
+        backgroundColor : 'white',
         alignItems: 'center',
         justifyContent: 'space-around'
     }
