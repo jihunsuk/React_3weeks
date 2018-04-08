@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column', // row
     backgroundColor: 'white',
-    alignItems: 'center',
-    justifyContent: 'space-around', // center, space-around
+    // alignItems: 'center',
+    // justifyContent: 'space-around', // center, space-around
   }
 });
